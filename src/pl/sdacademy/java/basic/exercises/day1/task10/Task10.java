@@ -8,8 +8,8 @@ public class Task10 {
         System.out.println("Sum: " + result);
 
 
-        int number = 8;
-        int result = sumOfDigits(number);
+        number = 8;
+        result = sumOfDigits(number);
         System.out.println("Sum: " + result);
 
     }
