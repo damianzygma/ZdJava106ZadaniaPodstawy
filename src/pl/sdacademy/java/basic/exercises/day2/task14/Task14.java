@@ -32,9 +32,16 @@ public class Task14 {
         // newArray[0] = -7
         // newArray[1] = -5
         // newArray[2] = -9
-        for(int i = 0, j = 0; i < inputs.length; i++) {
-            if(inputs[i] < 0) {
-              newArray[j++] = inputs[i];
+
+//        for(int i = 0, j = 0; i < inputs.length; i++) {
+//            if(inputs[i] < 0) {
+//              newArray[j++] = inputs[i];
+//            }
+//        }
+        int i = 0;
+        for(int element : inputs) {
+            if(element < 0) {
+                newArray[i++] = element;
             }
         }
         return newArray;
