@@ -26,7 +26,7 @@ public class Task6 {
                 }
             }
         }
-        return -1
+        return -1;
     }
-    
+
 }
